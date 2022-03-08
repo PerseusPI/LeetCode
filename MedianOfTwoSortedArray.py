@@ -9,8 +9,7 @@ class Solution:
         nums1 = [str(i) for i in nums1]
         nums2 = [str(i) for i in nums2]
         l = [int(i) for i in nums1]
-        for i in nums2:
-            l.append(int(i))
+        l += [int(i) for i in nums2]
         l.sort()
         valeur = 0
         if len(l) % 2 == 0:
