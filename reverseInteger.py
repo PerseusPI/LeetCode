@@ -3,7 +3,7 @@ Runtime: 31 ms, faster than 91.91% of Python3 online submissions for Reverse Int
 Memory Usage: 13.9 MB, less than 79.27% of Python3 online submissions for Reverse Integer.
 """
 
-def test(t :int) -> int:
+def test(t: int) -> int:
     if t <= -2**31:
         return 0
     elif t >= (2**31 - 1):
