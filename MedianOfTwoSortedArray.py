@@ -6,8 +6,6 @@ Memory Usage: 14.3 MB, less than 52.56% of Python3 online submissions for Median
 
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        nums1 = [str(i) for i in nums1]
-        nums2 = [str(i) for i in nums2]
         l = [int(i) for i in nums1] + [int(i) for i in nums2]
         l.sort()
         if len(l) % 2 == 0:
