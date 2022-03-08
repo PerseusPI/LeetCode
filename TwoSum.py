@@ -1,4 +1,5 @@
 """
+Easy Challenge: 
 Runtime: 5804 ms, faster than 12.24% of Python3 online submissions for Two Sum.
 Memory Usage: 15.1 MB, less than 64.24% of Python3 online submissions for Two Sum.
 """
