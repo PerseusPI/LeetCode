@@ -1,6 +1,6 @@
 """
-Runtime: 29 ms, faster than 93.45% of Python3 online submissions for Divide Two Integers.
-Memory Usage: 13.8 MB, less than 88.20% of Python3 online submissions for Divide Two Integers.
+Runtime: 28 ms, faster than 97.63% of Python3 online submissions for Divide Two Integers.
+Memory Usage: 14 MB, less than 52.25% of Python3 online submissions for Divide Two Integers.
 """
 def test(t: int) -> int:
     if t <= -2**31:
@@ -16,9 +16,5 @@ class Solution:
         if divisor != 0:
             res = dividend/divisor
             f = test(res)
-            if f[1]:
-                return int(f[0])
-            else:
-                return f[0]
-        else:
-            return 0
+            temp = int(f[0]) if [1] else int(f[0])
+            return temp
