@@ -1,6 +1,6 @@
 """
-Runtime: 77 ms, faster than 68.32% of Python3 online submissions for Palindrome Number.
-Memory Usage: 13.9 MB, less than 34.22% of Python3 online submissions for Palindrome Number.
+Runtime: 44 ms, faster than 99.60% of Python3 online submissions for Palindrome Number.
+Memory Usage: 13.8 MB, less than 97.63% of Python3 online submissions for Palindrome Number.
 """
 
 class Solution:
